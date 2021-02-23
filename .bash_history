@@ -41,3 +41,23 @@ git log
 git config -- global user.name "shreyanta"
 git add file2.txt
 clr
+cd /devops/devops-project
+git init
+ls -laht
+git status
+git rm --cached test.txt
+git add test.txt
+git add test1.txt
+git status
+git add .
+git status
+git commit -m "this is my first commit"
+git log
+vi test1.txt
+git status
+git commit -m "this is my second commit"
+git add .
+git commit -m "this is my second commit"
+git log
+git remote add origin https://github.com/devops22022021/devops_project.git
+git push -u origin master
